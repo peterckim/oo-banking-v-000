@@ -17,10 +17,6 @@ class Transfer
     @receiver
   end
   
-  def status=(status)
-    @status = status
-  end
-  
   def status
     @status
   end
