@@ -19,7 +19,7 @@ class Transfer
   end
   
   def amount
-    @amounts
+    @amount
   end
   
   def valid?
