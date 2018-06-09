@@ -1,5 +1,5 @@
 class Transfer
-  
+  attr_reader :sender, :receiver, :status, :amount
   @@last_transfer = nil
   
   def initialize(sender, receiver, amount)
