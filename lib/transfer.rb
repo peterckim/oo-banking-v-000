@@ -50,6 +50,7 @@ class Transfer
     last_receiver = @@last_transfer.receiver
     last_amount = @@last_transfer.amount
     last_status = @@last_transfer.status
+    
   end
   
 end
