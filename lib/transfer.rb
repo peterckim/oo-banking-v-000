@@ -38,6 +38,7 @@ class Transfer
         @sender.balance -= @amount
         @receiver.balance += @amount
         @status = "complete"
+        @last_transfer = self
       else
         
       end
