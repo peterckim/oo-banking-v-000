@@ -1,6 +1,6 @@
 class Transfer
   
-  @@last_transfer == nil
+  @@last_transfer = nil
   
   def initialize(sender, receiver, amount)
     @sender = sender
