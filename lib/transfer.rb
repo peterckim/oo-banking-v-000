@@ -52,7 +52,7 @@ class Transfer
     last_status = @@last_transfer.status
     last_sender.balance += last_amount
     last_receiver -= last_amount
-    last_status = ""
+    last_status = "reversed"
   end
   
 end
