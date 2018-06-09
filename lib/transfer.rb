@@ -4,7 +4,22 @@ class Transfer
     @receiver = receiver
     @status = "pending"
     @amount = amount
-    
+  end
+  
+  def sender
+    @sender
+  end
+  
+  def receiver
+    @receiver
+  end
+  
+  def status
+    @status
+  end
+  
+  def amount
+    @amounts
   end
   
   def valid?
