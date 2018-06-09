@@ -1,5 +1,8 @@
 class Transfer
-  def initialize
+  def initialize(sender, receivers)
+    @sender = sender
+    @receiver = receiver
+    @status = "pending"
     
   end
   
@@ -7,5 +10,12 @@ class Transfer
     
   end
   
+  def execute_transaction
+    
+  end
+  
+  def reverse_transfer
+    
+  end
   
 end
